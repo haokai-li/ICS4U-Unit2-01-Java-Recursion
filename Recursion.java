@@ -36,12 +36,14 @@ final class Recursion {
     */
 
     static String reverseProcess(final String originalString) {
+        final String answer;
         if (originalString.isEmpty()) {
-            return originalString;
+            answer = originalString;
         } else {
-            return reverseProcess(
+            answer = reverseProcess(
                 originalString.substring(1)) + originalString.charAt(0);
         }
+        return answer;
     }
 
     /**
