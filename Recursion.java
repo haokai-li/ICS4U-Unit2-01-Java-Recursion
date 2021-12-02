@@ -12,7 +12,7 @@
 import java.util.Scanner;
 
 /**
-* This is the standard "BoardFoot" program.
+* This is the standard "Reverse the string" program.
 */
 final class Recursion {
     /**
